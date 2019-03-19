@@ -1,6 +1,6 @@
 # European Language Enablement
 
-This repository exists to allow a network of experts to share information about gaps and requirements for support of European-origin scripts on the Web and in eBooks. 
+This repository exists to allow a network of experts to share information about gaps and requirements for support of European-origin scripts and languages on the Web and in eBooks. 
 
 The main problem we seem to face at the moment is that experts don't know how to tell the W3C what problems exist for support of their script on the Web, and the W3C doesn't know how to contact people who can help when questions arise. This network of experts should help to significantly reduce that problem. 
 
@@ -9,7 +9,11 @@ Some experts may go a step further, and contribute to a gap-analysis or requirem
 Topics for discussion are suggested by [the gap-analysis template](http://w3c.github.io/i18n-activity/templates/gap-analysis/gap-analysis_template.html). This work supports the development of the [matrix](http://w3c.github.io/typography/gap-analysis/language-matrix.html) indicating hot-spots for language support.
 
 ### Documents
-TBD
+- [Dutch gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-nl-gap)
+- [Georgian gap analysis](https://w3c.github.io/eurlreq/gap-analysis/geor-gap)
+- [Greek gap analysis](https://w3c.github.io/eurlreq/gap-analysis/grek-gap)
+- [Hungarian gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-hu-gap)
+
 
 ### Feedback
 Please use the [GitHub issue list](https://github.com/w3c/eurlreq/issues) to report issues for language support, for discussions, and to send feedback about documents.
