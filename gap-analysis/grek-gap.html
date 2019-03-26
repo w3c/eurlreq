@@ -195,10 +195,10 @@
 
     <p>There are tests available in the i18n test suite:</p>
 <ul>
-<li> <a href="https://www.w3.org/International/tests/repo/results/text-transform#greek_coptic_ul">text-transform: uppercase/lowercase</a></li>
-<li><a href="https://www.w3.org/International/tests/repo/results/text-transform#greek_coptic_cap">text-transform: capitalize</a></li>
-<li><a href="https://www.w3.org/International/tests/repo/results/text-transform#greek_coptic_sc">special casing</a></li>
-<li><a href="https://www.w3.org/International/tests/repo/results/text-transform#greek_tailoring">tailoring</a></li>
+<li> <a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_coptic_ul">text-transform: uppercase/lowercase</a></li>
+<li><a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_coptic_cap">text-transform: capitalize</a></li>
+<li><a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_coptic_sc">special casing</a></li>
+<li><a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_tailoring">tailoring</a></li>
 </ul>
 <p>The upper/lowercase tests show that <span class="fail">Firefox</span>, <span class="fail">Chrome</span>, and <span class="fail">Safari</span> fail the uppercase test for characters that are expected to have a form similar to ῼ. It produces instead ΩΙ, which is the form obtained by decomposing the character first, then applying uppercase.</p>
 <p>The special casing tests show that, on the whole, <span class="pass">Firefox</span>, <span class="pass">Chrome</span> and <span class="partial">Safari</span> will uppercase Greek specials as described in Unicode's SpecialCasing.txt (Safari fails on one character, Ϊ́̈). <span class="fail">Edge</span>, however, fails these tests.</p>
