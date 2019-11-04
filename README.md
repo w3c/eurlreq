@@ -1,12 +1,13 @@
-# European Language Enablement
+# European Layout Task Force (eurlreq)
 
-This repository exists to allow a network of experts to share information about gaps and requirements for support of European-origin scripts and languages on the Web and in eBooks. 
+This task force explores gaps in European language support on the Web and in eBooks, and documents requirements.
 
-The main problem we seem to face at the moment is that experts don't know how to tell the W3C what problems exist for support of their script on the Web, and the W3C doesn't know how to contact people who can help when questions arise. This network of experts should help to significantly reduce that problem. 
+It aims to address the problem that experts don't know how to tell the W3C what problems exist for support of their language on the Web, and the W3C doesn't know how to contact people who can help when questions arise.
 
-Some experts may go a step further, and contribute to a gap-analysis or requirements document for a given script.
+Topics for discussion are suggested by [the gap-analysis template](http://w3c.github.io/i18n-activity/templates/gap-analysis/gap-analysis_template.html). This work feeds into the [language matrix](http://w3c.github.io/typography/gap-analysis/language-matrix.html) which provides a heat-map for language issues on the Web.  You can find a list of open issues, including those from W3C Working Groups, on the [Layout Tracker](http://w3c.github.io/i18n-activity/textlayout/?filter=eurlreq) page. (That link applies an `eurlreq` filter.)
 
-Topics for discussion are suggested by [the gap-analysis template](http://w3c.github.io/i18n-activity/templates/gap-analysis/gap-analysis_template.html). This work supports the development of the [matrix](http://w3c.github.io/typography/gap-analysis/language-matrix.html) indicating hot-spots for language support.
+For more details about scope, deliverables, work methods, etc., see the [group's charter](https://w3c.github.io/eurlreq/charter/).
+
 
 ### Documents
 - [Dutch gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-nl-gap)
@@ -16,25 +17,37 @@ Topics for discussion are suggested by [the gap-analysis template](http://w3c.gi
 
 
 ### Feedback
-Please use the [GitHub issue list](https://github.com/w3c/eurlreq/issues) to report issues for language support, for discussions, and to send feedback about documents.
+Please use the [GitHub issue list](https://github.com/w3c/eurlreq/issues) to report issues for language support, for discussions, and to send feedback about documents. (Learn [how GitHub issues work](http://w3c.github.io/i18n-activity/guidelines/issues.html).)
 
-### Following
-Rather than just 'Watch' this repository, it is best to subscribe to the [public-i18n-europe](https://lists.w3.org/Archives/Public/public-i18n-europe/) mailing list. That list is notified once a day (in digest form) about not only changes to this repository, but also about other W3C Working Group issues related to Southeast Asian writing systems. (Please use github issues rather than the mailing list to send feedback.)
+Note that the public-i18n-europe mailing list is used to send notification digests & meeting minutes. It is **not** for technical discussion.
 
-You can find a list of open issues, including those from Working Groups, on the [Layout Tracker](http://w3c.github.io/i18n-activity/textlayout/?filter=europe) page. (That link applies a europe filter.)
 
-### Contributing
-All contributors should read and agree with [CONTRIBUTING.md](CONTRIBUTING.md).
+### Participate
+You can participate in the task force work at various levels. In order of increasing commitment, these include Follower, Contributor, Participant, Editor, and Chair. [Find your level](https://github.com/w3c/i18n-activity/wiki/Layout-task-force-roles).
 
-Group _members_ are expert contributors who provide advice on requirements and gaps for the script they are familiar with. Some may also participate actively in producing the work of the group, contributing text and advice to create the outputs, and participating in meetings. For more information about becoming a group member contact [Richard Ishida](mailto:ishida@w3.org). We welcome participation requests.
+**To just follow the work:** Rather than 'Watch' this repository, [subscribe](mailto:public-i18n-europe-request@w3.org?subject=subscribe) to the [public-i18n-europe](https://lists.w3.org/Archives/Public/public-i18n-europe/) mailing list. That list is notified (no more than once a day, and in digest form), about changes to issues in this repository, but also about other W3C Working Group issues related to the European orthographies.
+
+**To contribute content:** All contributors must read and agree with [CONTRIBUTING.md](CONTRIBUTING.md).
+
+**To become a participant, editor, or chair:** contact [Richard Ishida](mailto:ishida@w3.org). We welcome participation requests.
+
+
+### Contacts
+
+- Chair: TBA
+- W3C staff: [Richard Ishida](mailto:ishida@w3.org)
+
 
 ### Links
-- Charter (tbd)
-- Action tracker (tbd)
+- [Github issues](https://github.com/w3c/eurlreq/issues)
+- [Issue tracker](http://w3c.github.io/i18n-activity/textlayout/?filter=eurlreq)
+- [Mail archive](https://lists.w3.org/Archives/Public/public-i18n-europe/)
 - [Writing i18n tests](https://github.com/w3c/i18n-activity/wiki/Writing-i18n-tests)
 - [Practical tips for task forces](https://w3c.github.io/i18n-activity/guidelines/process.html)
+- (See also the github and editorial guidelines below)
+- [Charter](https://w3c.github.io/eurlreq/charter/)
+- Action tracker (tbd)
 - Meeting info (tbd)
-- [Mail archive](https://lists.w3.org/Archives/Public/public-i18n-eur/)
 
 
 ### Links to background information
