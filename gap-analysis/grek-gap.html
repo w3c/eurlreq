@@ -2,10 +2,12 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
 
-  <title>Modern Greek Gap Analysis</title>
-  <script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove">
+<title>Modern Greek Gap Analysis</title>
+<script src="../../i18n-activity/textlayout/resources/gap-analysis-github.js"> </script>
+
+<script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove">
 </script>
   <script class="remove">
   var respecConfig = {
@@ -18,7 +20,7 @@
       noRecTrack:           true,
       shortName:            "grek-gap",
       copyrightStart:       "2018",
-      edDraftURI:           "http://w3c.github.io/eurlreq/gap-analysis/docs/",
+      edDraftURI:           "https://w3c.github.io/eurlreq/gap-analysis/docs/",
 
       // if this is a LCWD, uncomment and set the end of its review period
       // lcEnd: "2009-08-05",
@@ -31,7 +33,7 @@
 
 
       wg:           "Internationalization Working Group",
-      wgURI:        "http://www.w3.org/International/core/",
+      wgURI:        "https://www.w3.org/International/core/",
 
 	  github:		"w3c/eurlreq",
       
@@ -46,7 +48,7 @@
       // This is important for Rec-track documents, do not copy a patent URI from a random
       // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
       // Team Contact.
-      wgPatentURI:  "http://www.w3.org/2004/01/pp-impl/32113/status",
+      wgPatentURI:  "https://www.w3.org/2004/01/pp-impl/32113/status",
       // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
     };
   </script>
@@ -62,8 +64,8 @@
   <div id="sotd">
     <p>This document describes and prioritises gaps for the support of Modern Greek on the Web and in eBooks. In particular, it is concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.
 <!-- This document complements the document <a href="https://w3c.github.io/xxxxx/">Text Layout Requirements for the Xxxxx Script</a>, which describes the requirements for areas where gaps appear.-->
-It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/language-matrix.html">language matrix</a> that tracks Web support for many languages.</p>
-<p>This document is an individual contribution, and is not currently a work item in any group, however, you can contact the <a href="http://www.w3.org/International/core/">Internationalization Working Group</a> for more information. We welcome contributions to this and/or other documents.</p>
+It is linked to from the <a href="https://w3c.github.io/typography/gap-analysis/language-matrix.html">language matrix</a> that tracks Web support for many languages.</p>
+<p>This document is an individual contribution, and is not currently a work item in any group, however, you can contact the <a href="https://www.w3.org/International/core/">Internationalization Working Group</a> for more information. We welcome contributions to this and/or other documents.</p>
 </div>
 
   <section id="h_introduction">
@@ -113,15 +115,12 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <h2>Text direction</h2>
 <p>See also General page layout &amp; progression for features such as column layout, page turning direction, etc. that are affected by text direction.</p>
 
+
 <section id="vertical_text" class="na">
 <h3>Vertical text</h3>
 <p id="prompt-vertical_text" class="status_prompt promptStub"></p>
 
-
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-vertical_text"></div>
 </section>
 
 
@@ -131,11 +130,8 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <h3>Bidirectional text</h3>
 <p id="prompt-bidi_text" class="status_prompt promptStub"></p>
 
+<div id="insert-bidi_text"></div>
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
 </section>
 </section>
 
@@ -151,10 +147,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <h3>Characters &amp; encoding</h3>
 <p id="prompt-charset" class="status_prompt promptStub"></p>
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-charset"></div>
 </section>
 
 
@@ -164,10 +157,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-fonts" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-fonts"></div>
 </section>
 
 
@@ -177,10 +167,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-font_style" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-font_style"></div>
 </section>
 
 
@@ -190,10 +177,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-glyphs" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-glyphs"></div>
 </section>
 
 
@@ -203,37 +187,17 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-cursive" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-cursive_text"></div>
 </section>
 
 
 
-<section id="transforms" class="advanced">
+<section id="transforms" class="tbd">
 <h3>Transforming characters</h3>
 <p id="prompt-transforms" class="status_prompt promptStub"></p>
 
 
-<section id="casing_fails">
-<h4>Uppercase transforms fail for some characters</h4>
-    <p>There are tests available in the i18n test suite:</p>
-<ul>
-<li> <a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_coptic_ul">text-transform: uppercase/lowercase</a></li>
-<li><a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_coptic_cap">text-transform: capitalize</a></li>
-<li><a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_coptic_sc">special casing</a></li>
-<li><a href="https://w3c.github.io/i18n-tests/results/text-transform#greek_tailoring">tailoring</a></li>
-</ul>
-<p>The upper/lowercase tests show that <span class="fail">Firefox</span>, <span class="fail">Chrome</span>, and <span class="fail">Safari</span> fail the uppercase test for characters that are expected to have a form similar to ῼ. It produces instead ΩΙ, which is the form obtained by decomposing the character first, then applying uppercase.</p>
-<p>The special casing tests show that, on the whole, <span class="pass">Firefox</span>, <span class="pass">Chrome</span> and <span class="partial">Safari</span> will uppercase Greek specials as described in Unicode's SpecialCasing.txt (Safari fails on one character, Ϊ́̈). <span class="fail">Edge</span>, however, fails these tests.</p>
-<p>Only <span class="pass">Firefox</span> and <span class="pass">Chrome</span> pass all the tailoring tests. Failures for <span class="fail">Safari</span> and <span class="fail">Edge</span> include the following:</p>
-<ol>
-<li><code class="kw" translate="no">transform: uppercase</code> doesn't cause Greek words that are all uppercase to lose tonos</li>
-<li><code class="kw" translate="no">transform: uppercase</code> doesn't cause Greek words that are all uppercase to convert tonos plus dialytika to just dialytika, and convert diphthongs with tonos on the first character to a dialytika on the second character</li>
-<li><code class="kw" translate="no">text-transform: uppercase</code> doesn't cause a disjunctive eta in a Greek sentence keeps its tonos diacritic.</li>
-</ol>
-</section>
+<div id="insert-transforms"></div>
 </section>
 
 
@@ -244,10 +208,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-baselines" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-baselines"></div>
 </section>
 
 
@@ -258,10 +219,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-segmentation" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-segmentation"></div>
 </section>
  
 
@@ -271,10 +229,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-punctuation_etc" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-punctuation_etc"></div>
 </section>
    
     
@@ -284,36 +239,17 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-text_decoration" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-text_decoration"></div>
 </section>
 
 
 
-<section id="quotations" class="advanced">
+<section id="quotations" class="tbd">
 <h3>Quotations</h3>
 <p id="prompt-quotations" class="status_prompt promptStub"></p>
-
-
-<section id="q_defaults">
-<h4>Default quotation marks for q element</h4>
-<p>If the <code class="kw" translate="no">html</code> tag sets the language of a page, the HTML specification says that  the <code class="kw" translate="no">q</code> element should by default produce quotation marks according to the information in CLDR for that language.</p>
-<p>For <strong>Greek</strong>, the default quote marks should be, reading right to left, «...», and embedded quote marks “...”. <span class="fail">Firefox</span> produces the default English quotes. <span class="pass">Chrome</span> &amp; <span class="pass">Safari</span> are ok. <span class="partial">Edge</span> produces the outer quote marks as expected, but uses single quotes for the inner ones. See a <a href="https://w3c.github.io/i18n-tests/results/the-q-element.html#language">test and results</a>.</p>
-</section>
-
-<section id="q_section">
-<h4>Default quotation marks in a new language section</h4>
-<p>In addition, the default quotation marks for the <code class="kw" translate="no">q</code> element  are not set to the appropriate characters by the browser  when the element appears inside a Greek section of a page that has a different overall language. This is currently per the HTML specification (both <abbr title="World Wide Web Consortium">W3C<!---0.304674%--></abbr> and WhatWG).  There is <a href="https://github.com/whatwg/html/issues/3636#issuecomment-384340053">an issue</a> raised against the WhatWG version for this to be changed.</p>
-</section>
-
-<section id="q_multilingual">
-<h4>Embedded quotations in a different language</h4>
-<p>Greek quotes embedded in text in another language can also be problematic if the outer language uses different quotation marks. This is due to the browsers choosing default quotation marks based on the language of the <em>quotation</em>, rather than that of the surrounding text. See <a href="https://w3c.github.io/i18n-tests/results/the-q-element.html#ml_nesting">a test</a>. This behaviour is specified in the WhatWG version of the HTML spec, but no longer in the <abbr title="World Wide Web Consortium">W3C<!---0.304674%--></abbr> version. There is <a href="https://github.com/whatwg/html/issues/3636#issuecomment-384340053">an issue</a> raised against the WhatWG version for this to be changed.</p>
-</section>
-
-<p>Marking all the above as advanced, because use of the <code class="kw" translate="no">q</code> element is optional (quote characters can be used instead), and it can be styled using CSS for the general case.</p>
+	
+	
+<div id="insert-quotations"></div>
 </section>
 
 
@@ -322,23 +258,17 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-inline_notes" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-inline_notes"></div>
 </section>
 
 
 
-<section id="data_formats" class="ok">
+<section id="data_formats" class="tbd">
 <h3>Data formats &amp; numbers</h3>
 <p id="prompt-data_formats" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-data_formats"></div>
 </section>
 
 
@@ -367,10 +297,9 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-line_breaking" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-line_breaking"></div>
+
+<p>See also <a href="#hyphenation">hyphenation</a> below. </p>
 </section>
 
 
@@ -380,10 +309,8 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-hyphenation" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-hyphenation"></div>
+</div>
 </section>
 
 
@@ -393,10 +320,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-justification" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-justification"></div>
 </section>
 
 
@@ -406,30 +330,18 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-spacing" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+
+<div id="insert-spacing"></div>
 </section>
 
 
 
-<section id="lists" class="basic">
+<section id="lists" class="tbd">
 <h3>Lists, counters, etc.</h3>
 <p id="prompt-lists" class="status_prompt promptStub"></p>
 
 
-<section id="greek_lower_modern">
-<h4>greek-lower-modern counter style not supported</h4>
-    <p>Tests:</p>
-<ol>
-<li><a href="https://www.w3.org/International/tests/repo/results/predefined-counter-styles#simplealphabetic">Simple alphabetic</a></li>
-<li><a href="https://www.w3.org/International/tests/repo/results/custom-counter-styles#greek">Greek script</a></li>
-</ol>
-<p>The <code class="kw" translate="no">lower-greek</code> counter style is defined in the CSS Counter Styles Level 3 specification, however the <code class="kw" translate="no">greek-lower-modern</code> style described in <a href="https://www.w3.org/TR/predefined-counter-styles/#greek-styles">Ready-made Counter Styles</a> is more commonly used in Greece. CSS2.1 included the <code class="kw" translate="no">lower-greek</code> keyword, and  <span class="fail">all major browsers</span> support the <code class="kw" translate="no">lower-greek</code> counter style but not the <code class="kw" translate="no">greek-lower-modern</code> style.</p>
-<p>The CSS Counter Styles spec allows users to create their own counter styles, but the feature is only implemented by Firefox at the moment.</p>
-<p>Effectively, this means that there isn't a good greek counter style feature available for authors.</p>
-</section>
+<div id="insert-lists"></div>
 </section>
 
 
@@ -439,10 +351,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-initials" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-initials"></div>
 </section>
 
 
@@ -471,10 +380,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-page_layout" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-page-layout"></div>
 </section>
 
 
@@ -484,10 +390,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-footnotes_etc" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-footnotes_etc"></div>
 </section>
 
 
@@ -498,10 +401,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-headers_footers"></div>
 </section>
 
 
@@ -511,10 +411,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-interaction" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-interaction"></div>
 </section>
 
 
@@ -541,7 +438,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
     <p class="status_prompt">Sometimes a script or language does things that are not common outside of its sphere of influence. This is a loose bag of additional items that weren't previously mentioned. This section may also be relevant for observations related to locale formats (such as number, date, currency, format support).</p>
 
 
-    <p></p>
+<div id="insert-culturespecific"></div>
     </section>
 
 
@@ -551,7 +448,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
     <p class="status_prompt">There are many other CSS modules which may need review for script-specific requirements, not to mention the SVG, HTML, Speech, MathML and other specifications. What else is likely to cause problems for worldwide deployment of the Web, and what requirements need to be addressed to make the Web function well locally?</p>
 
 
-    <p></p>
+<div id="insert-other"></div>
     </section>
     
 </section>
@@ -563,65 +460,14 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <summary style="margin-top:4em; cursor: pointer;">Show summary</summary>
 <pre id="summaryPlaceholder" style="white-space: pre-wrap;"></pre>
 </details>
+
+
+
+
 <script>
-var out = ''
-for (let i=0;i<respecConfig.langs.length;i++) {
-    out += '{lang: "'+respecConfig.langs[i]+'"'
-    out += ', url:"'+respecConfig.gapDocPath+'"'
-    out += ', tentative:' + true
-    out += ', vertical_text:"'+document.getElementById('vertical_text').className+'"'
-    out += ', bidi_text:"'+document.getElementById('bidi_text').className+'"'
-
-    out += ', charset:"'+document.getElementById('charset').className+'"'   
-    out += ', fonts:"'+document.getElementById('fonts').className+'"'
-    out += ', font_style:"'+document.getElementById('font_style').className+'"'
-    out += ', glyphs:"'+document.getElementById('glyphs').className+'"'
-    out += ', cursive:"'+document.getElementById('cursive').className+'"'
-    out += ', transforms:"'+document.getElementById('transforms').className+'"'
-    out += ', baselines:"'+document.getElementById('baselines').className+'"'
-    out += ', segmentation:"'+document.getElementById('segmentation').className+'"'
-    out += ', punctuation_etc:"'+document.getElementById('punctuation_etc').className+'"'
-    out += ', text_decoration:"'+document.getElementById('text_decoration').className+'"'
-    out += ', quotations:"'+document.getElementById('quotations').className+'"'
-    out += ', inline_notes:"'+document.getElementById('inline_notes').className+'"'
-    out += ', data_formats:"'+document.getElementById('data_formats').className+'"'
-
-    out += ', line_breaking:"'+document.getElementById('line_breaking').className+'"'
-    out += ', hyphenation:"'+document.getElementById('hyphenation').className+'"'
-    out += ', justification:"'+document.getElementById('justification').className+'"'
-    out += ', spacing:"'+document.getElementById('spacing').className+'"'
-    out += ', lists:"'+document.getElementById('lists').className+'"'
-    out += ', initials:"'+document.getElementById('initials').className+'"'
-
-    out += ', page_layout:"'+document.getElementById('page_layout').className+'"'
-    out += ', footnotes_etc:"'+document.getElementById('footnotes_etc').className+'"'
-    out += ', headers_footers:"'+document.getElementById('headers_footers').className+'"'
-    out += ', interaction:"'+document.getElementById('interaction').className+'"'
-    out += '},\n'
-
-    out = out.replace(/tbd/g,'')
-    out = out.replace(/broken/g,'0')
-    out = out.replace(/ok/g,'3')
-    out = out.replace(/advanced/g,'2')
-    out = out.replace(/basic/g,'1')
-    out = out.replace(/"na/g,'"-')
-    }
-document.getElementById('summaryPlaceholder').textContent = out
-
-var temp = document.querySelectorAll('section')
-for (let x=0;x<temp.length;x++) {
-    console.log(temp[x].id)
-    }
-
-
-
-
-
-
-
+setUpSummary()
 addPrompts() 
-
-
+getAllData('eurlreq','doc:grek')
 </script>
 
 

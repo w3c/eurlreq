@@ -2,12 +2,14 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
 
-  <title>Dutch Gap Analysis</title>
-  <script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove">
+<title>Dutch Gap Analysis</title>
+<script src="../../i18n-activity/textlayout/resources/gap-analysis-github.js"> </script>
+
+<script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove">
 </script>
-  <script class="remove">
+<script class="remove">
   var respecConfig = {
       // specification status (e.g. WD, LCWD, WG-NOTE, etc.). If in doubt use ED.
       specStatus:           "ED",
@@ -18,7 +20,7 @@
       noRecTrack:           true,
       shortName:            "latn-nl-gap",
       copyrightStart:       "2018",
-      edDraftURI:           "http://w3c.github.io/typgraphy/gap-analysis/docs/",
+      edDraftURI:           "https://w3c.github.io/typgraphy/gap-analysis/docs/",
 
       // if this is a LCWD, uncomment and set the end of its review period
       // lcEnd: "2009-08-05",
@@ -31,7 +33,7 @@
 
 
       wg:           "Internationalization Working Group",
-      wgURI:        "http://www.w3.org/International/core/",
+      wgURI:        "https://www.w3.org/International/core/",
 
 	  github:		"w3c/eurlreq",
 	  
@@ -48,7 +50,7 @@
       // This is important for Rec-track documents, do not copy a patent URI from a random
       // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
       // Team Contact.
-      wgPatentURI:  "http://www.w3.org/2004/01/pp-impl/32113/status",
+      wgPatentURI:  "https://www.w3.org/2004/01/pp-impl/32113/status",
       // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
     };
   </script>
@@ -56,7 +58,7 @@
 <link rel="stylesheet" href="https://w3c.github.io/typography/gap-analysis/gapanalysis.css">
 </head>
 
-<body>
+<body onLoad="printSummary()">
   <div id="abstract">
     <p>This document describes and prioritises gaps for the support of Dutch on the Web and in eBooks. In particular, it is concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders. <strong>This is a preliminary analysis.</strong></p>
   </div>
@@ -115,15 +117,11 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <h2>Text direction</h2>
 <p>See also General page layout &amp; progression for features such as column layout, page turning direction, etc. that are affected by text direction.</p>
 
-<section id="vertical_text" class="advanced">
+<section id="vertical_text" class="tbd">
 <h3>Vertical text</h3>
 <p id="prompt-vertical_text" class="status_prompt promptStub"></p>
 
-
-<section id="spines">
-<h4>Vertical text in spines, etc.</h4>
-    <p> Vertical text may occur for special effects (the spine of a book, table column headings). Typographically, it is simply horizontal text that is rotated. The ‘writing-modes: sideways-lr/rl’ CSS feature should solve that, but isn't supported yet. </p>
-</section>
+<div id="insert-vertical_text"></div>
 </section>
 
 
@@ -133,11 +131,8 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <h3>Bidirectional text</h3>
 <p id="prompt-bidi_text" class="status_prompt promptStub"></p>
 
+<div id="insert-bidi_text"></div>
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
 </section>
 </section>
 
@@ -153,10 +148,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <h3>Characters &amp; encoding</h3>
 <p id="prompt-charset" class="status_prompt promptStub"></p>
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-charset"></div>
 </section>
 
 
@@ -166,10 +158,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-fonts" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-fonts"></div>
 </section>
 
 
@@ -179,10 +168,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-font_style" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-font_style"></div>
 </section>
 
 
@@ -192,10 +178,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-glyphs" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-glyphs"></div>
 </section>
 
 
@@ -205,24 +188,17 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-cursive" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-cursive_text"></div>
 </section>
 
 
 
-<section id="transforms" class="basic">
+<section id="transforms" class="tbd">
 <h3>Transforming characters</h3>
 <p id="prompt-transforms" class="status_prompt promptStub"></p>
 
 
-<section id="ij_case_conversion">
-<h4>IJ case conversion</h4>
-    <p>Capitalisation doesn't convert ij at the start of a word to IJ in most browsers, even if the text is labelled as Dutch. See test results at <a href="https://www.w3.org/International/tests/repo/results/text-transform#dutch_tailoring">https://www.w3.org/International/tests/repo/results/text-transform#dutch_tailoring</a> </p>
-<p>See also the section on <a href="#initial_letter">initial letter styling</a>.</p>
-</section>
+<div id="insert-transforms"></div>
 </section>
 
 
@@ -233,10 +209,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-baselines" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-baselines"></div>
 </section>
 
 
@@ -247,10 +220,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-segmentation" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-segmentation"></div>
 </section>
  
 
@@ -260,10 +230,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-punctuation_etc" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-punctuation_etc"></div>
 </section>
    
     
@@ -273,24 +240,17 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-text_decoration" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-text_decoration"></div>
 </section>
 
 
 
-<section id="quotations" class="basic">
+<section id="quotations" class="">
 <h3>Quotations</h3>
 <p id="prompt-quotations" class="status_prompt promptStub"></p>
-
-
-    <p> In HTML and CSS the styling applied to nested multilingual quotations when using the q element chooses quotation marks based on the language of the text inside the quotation, rather than outside.</p>
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+	
+	
+<div id="insert-quotations"></div>
 </section>
 
 
@@ -299,10 +259,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-inline_notes" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-inline_notes"></div>
 </section>
 
 
@@ -312,10 +269,7 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-data_formats" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-data_formats"></div>
 </section>
 
 
@@ -344,52 +298,41 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-line_breaking" class="status_prompt promptStub"></p>
 
 
-    <p> But see <a href="#hyphenation">hyphenation</a> below. </p>
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-line_breaking"></div>
+
+<p>See also <a href="#hyphenation">hyphenation</a> below. </p>
 </section>
 
 
 
-<section id="hyphenation" class="basic">
+<section id="hyphenation" class="ok">
 <h3>Hyphenation</h3>
 <p id="prompt-hyphenation" class="status_prompt promptStub"></p>
 
 
-<section id="hyphenation_support">
-<h4>Hyphenation details poorly supported</h4>
-    <p> Few browsers so far support hyphenation. When they do, they break correctly in most cases (better on Debian Linux than on Mac OS X, it seems), but they do not use the break opportunities where breaking would cause letters to change (cafeetje → café-tje, autootje → auto-tje) or they do it wrong (skiërs → ski-ers, not ski-ërs). </p>
-</section>
+<div id="insert-hyphenation"></div>
+</div>
 </section>
 
 
 
-<section id="justification" class="advanced">
+<section id="justification" class="tbd">
 <h3>Text alignment &amp; justification</h3>
 <p id="prompt-justification" class="status_prompt promptStub"></p>
 
 
-    <p> The (rarely used) hanging punctuation is not supported. Some newspapers allow letter spacing to help with justification, which is not supported either.</p>
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-justification"></div>
 </section>
 
 
 
-<section id="spacing" class="basic">
+<section id="spacing" class="tbd">
 <h3>Letter spacing</h3>
 <p id="prompt-spacing" class="status_prompt promptStub"></p>
 
 
-    <p> Current implementations put the letter spacing after a letter even when it is at the end of a line, which makes the line look misaligned in justified or right-justified text. </p>
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+
+<div id="insert-spacing"></div>
 </section>
 
 
@@ -399,23 +342,17 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <p id="prompt-lists" class="status_prompt promptStub"></p>
 
 
-<!--section id="xxxxxx">
-<h4>xxxxxx</h4>
-<p></p>
-</section-->
+<div id="insert-lists"></div>
 </section>
 
 
 
-<section id="initials" class="basic">
+<section id="initials" class="tbd">
 <h3>Styling initials</h3>
 <p id="prompt-initials" class="status_prompt promptStub"></p>
 
 
-<section id="ij_initials">
-<h4>IJ not supported</h4>
-    <p> Despite the CSS specification specifically mentioning that the IJ combination should be treated as a single letter, browser don't seem to support this. </p>
-</section>
+<div id="insert-initials"></div>
 </section>
 
 
@@ -537,6 +474,13 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <pre id="summaryPlaceholder" style="white-space: pre-wrap;"></pre>
 </details>
 <script>
+setUpSummary()
+addPrompts() 
+getAllData('eurlreq','doc:nl')
+
+
+
+/*
 var out = ''
 for (let i=0;i<respecConfig.langs.length;i++) {
     out += '{lang: "'+respecConfig.langs[i]+'"'
@@ -583,16 +527,13 @@ document.getElementById('summaryPlaceholder').textContent = out
 
 var temp = document.querySelectorAll('section')
 for (let x=0;x<temp.length;x++) {
-    console.log(temp[x].id)
+    //console.log(temp[x].id)
     }
 
+*/
 
 
 
-
-
-
-addPrompts() 
 
 
 </script>
