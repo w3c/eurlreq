@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 
 <title>Modern Greek Gap Analysis</title>
-<script src="../../i18n-activity/textlayout/resources/gap-analysis-github.js"> </script>
+<script  class="remove" src="../../i18n-activity/textlayout/resources/gap-analysis-github.js"> </script>
 
 <script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove">
 </script>
@@ -13,14 +13,14 @@
   var respecConfig = {
       // specification status (e.g. WD, LCWD, WG-NOTE, etc.). If in doubt use ED.
       specStatus:           "ED",
-      //publishDate:  		"2015-07-21",
+      //publishDate:  		"2020-06-11",
       //previousPublishDate:  "2014-12-16",
       //previousMaturity:  "FPWD",
       
       noRecTrack:           true,
       shortName:            "grek-gap",
       copyrightStart:       "2018",
-      edDraftURI:           "https://w3c.github.io/eurlreq/gap-analysis/docs/",
+      edDraftURI:           "https://w3c.github.io/eurlreq/gap-analysis/grek-gap",
 
       // if this is a LCWD, uncomment and set the end of its review period
       // lcEnd: "2009-08-05",
@@ -36,11 +36,23 @@
       wgURI:        "https://www.w3.org/International/core/",
 
 	  github:		"w3c/eurlreq",
+	  
+	  postProcess: [
+    	function importStyleSheet() {
+			[...document.querySelectorAll("link[rel='stylesheet'][data-import]")].forEach(l => {
+				const style = document.createElement("style");
+				fetch(l.href).then(r => r.text()).then(t => {
+					style.textContent = t;
+					l.replaceWith(style);
+					});
+      			});
+    		}
+   		],
       
       // langs array lists languages addressed by this document, in order of speaker (highest first)
       // it is used to generate the javascript needed for the matrix
       langs: ['Greek'],
-      gapDocPath: 'https://w3c.github.io/eurlreq/gap-analysis/grek-gap',
+      gapDocPath: 'https://www.w3.org/TR/grek-gap/',
 
 
       // URI of the patent status for this WG, for Rec-track documents
@@ -52,11 +64,11 @@
       // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
     };
   </script>
-<script src="/i18n-activity/templates/gap-analysis/prompts.js"> </script>
-<link rel="stylesheet" href="https://w3c.github.io/typography/gap-analysis/gapanalysis.css">
+<script  class="remove" src="/i18n-activity/templates/gap-analysis/prompts.js"> </script>
+<link rel="stylesheet" data-import href="https://w3c.github.io/typography/gap-analysis/gapanalysis.css">
 </head>
 
-<body onLoad="printSummary(true)">
+<body>
   <div id="abstract">
     <p>This document describes and prioritises gaps for the support of Modern Greek on the Web and in eBooks. In particular, it is concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders. <strong>This is a preliminary analysis.</strong></p>
   </div>
@@ -464,10 +476,11 @@ It is linked to from the <a href="https://w3c.github.io/typography/gap-analysis/
 
 
 
-<script>
+<script class="remove">
 setUpSummary()
 addPrompts() 
 getAllData('eurlreq','doc:grek')
+printSummary(true)
 </script>
 
 
