@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 
 <title>Dutch Gap Analysis</title>
-<script src="../../i18n-activity/textlayout/resources/gap-analysis-github.js"> </script>
+<script class="remove" src="../../i18n-activity/textlayout/resources/gap-analysis-github.js"> </script>
 
 <script src="https://www.w3.org/Tools/respec/respec-w3c-common" async="" class="remove">
 </script>
@@ -13,14 +13,14 @@
   var respecConfig = {
       // specification status (e.g. WD, LCWD, WG-NOTE, etc.). If in doubt use ED.
       specStatus:           "ED",
-      //publishDate:  		"2015-07-21",
+      //publishDate:  		"2020-06-23",
       //previousPublishDate:  "2014-12-16",
       //previousMaturity:  "FPWD",
 
       noRecTrack:           true,
       shortName:            "latn-nl-gap",
       copyrightStart:       "2018",
-      edDraftURI:           "https://w3c.github.io/typgraphy/gap-analysis/docs/",
+      edDraftURI:           "https://w3c.github.io/eurlreq/gap-analysis/latn-nl-gap",
 
       // if this is a LCWD, uncomment and set the end of its review period
       // lcEnd: "2009-08-05",
@@ -37,11 +37,23 @@
 
 	  github:		"w3c/eurlreq",
 	  
-	  
+	  postProcess: [
+    	function importStyleSheet() {
+			[...document.querySelectorAll("link[rel='stylesheet'][data-import]")].forEach(l => {
+				const style = document.createElement("style");
+				fetch(l.href).then(r => r.text()).then(t => {
+					style.textContent = t;
+					l.replaceWith(style);
+					});
+      			});
+    		}
+   		],
+   
+   
       // langs array lists languages addressed by this document, in order of speaker (highest first)
       // it is used to generate the javascript needed for the matrix
       langs: ['Dutch'],
-      gapDocPath: 'https://w3c.github.io/eurlreq/gap-analysis/latn-nl-gap',
+      gapDocPath: 'https://www.w3.org/TR/latn-nl-gap/',
 
 
 
@@ -54,11 +66,11 @@
       // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
     };
   </script>
-<script src="/i18n-activity/templates/gap-analysis/prompts.js"> </script>
-<link rel="stylesheet" href="https://w3c.github.io/typography/gap-analysis/gapanalysis.css">
+<script class="remove" src="/i18n-activity/templates/gap-analysis/prompts.js"> </script>
+<link rel="stylesheet" data-import href="https://w3c.github.io/typography/gap-analysis/gapanalysis.css">
 </head>
 
-<body onLoad="printSummary(true)">
+<body>
   <div id="abstract">
     <p>This document describes and prioritises gaps for the support of Dutch on the Web and in eBooks. In particular, it is concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders. <strong>This is a preliminary analysis.</strong></p>
   </div>
@@ -66,8 +78,8 @@
   <div id="sotd">
     <p>This document describes and prioritises gaps for the support of Dutch on the Web and in eBooks. In particular, it is concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders.
 <!-- This document complements the document <a href="https://w3c.github.io/xxxxx/">Text Layout Requirements for the Xxxxx Script</a>, which describes the requirements for areas where gaps appear.-->
-It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/language-matrix.html">language matrix</a> that tracks Web support for many languages.</p>
-<p>This document is an individual contribution, and is not currently a work item in any group, however, you can contact the <a href="http://www.w3.org/International/core/">Internationalization Working Group</a> for more information. We welcome contributions to this and/or other documents.</p>
+It is linked to from the <a href="https://w3c.github.io/typography/gap-analysis/language-matrix.html">language matrix</a> that tracks Web support for many languages.</p>
+<p>This document is an individual contribution, and is not currently a work item in any group, however, you can contact the <a href="https://www.w3.org/International/core/">Internationalization Working Group</a> for more information. We welcome contributions to this and/or other documents.</p>
 </div>
 
   <section id="h_introduction">
@@ -311,17 +323,16 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 
 
 <div id="insert-hyphenation"></div>
-</div>
 </section>
 
 
 
 <section id="justification" class="tbd">
 <h3>Text alignment &amp; justification</h3>
-<p id="prompt-justification" class="status_prompt promptStub"></p>
+<p id="prompt-text_align_justification" class="status_prompt promptStub"></p>
 
 
-<div id="insert-justification"></div>
+<div id="insert-text_align_justification"></div>
 </section>
 
 
@@ -473,10 +484,11 @@ It is linked to from the <a href="http://w3c.github.io/typography/gap-analysis/l
 <summary style="margin-top:4em; cursor: pointer;">Show summary</summary>
 <pre id="summaryPlaceholder" style="white-space: pre-wrap;"></pre>
 </details>
-<script>
+<script class="remove">
 setUpSummary()
 addPrompts() 
 getAllData('eurlreq','doc:nl')
+printSummary(true)
 </script>
 
 
