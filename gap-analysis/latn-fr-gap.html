@@ -55,7 +55,7 @@
       // langs array lists languages addressed by this document, in order of speaker (highest first)
       // it is used to generate the javascript needed for the matrix
       langs: ['French'],
-      gapDocPath: 'https://www.w3.org/TR/latn-fr-gap',
+      gapDocPath: 'https://w3c.github.io/eurlreq/gap-analysis/latn-fr-gap',
 
 
       // URI of the patent status for this WG, for Rec-track documents
@@ -440,14 +440,13 @@ It is linked to from the <a href="https://w3c.github.io/typography/gap-analysis/
 
 
 <details>
-<summary style="margin-top:4em; cursor: pointer;">Show summary</summary>
+<summary style="margin-top:4em; cursor: pointer;" onClick="setUpSummary();
+printSummary(true)">Show summary</summary>
 <pre id="summaryPlaceholder" style="white-space: pre-wrap;"></pre>
 </details>
 <script class="remove">
-setUpSummary()
 addPrompts() 
 getAllData('eurlreq','doc:fr')
-printSummary(true)
 </script>
 
 

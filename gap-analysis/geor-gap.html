@@ -64,7 +64,7 @@
       // !!!! IMPORTANT !!!! MAKE THE ABOVE BLINK IN YOUR HEAD
     };
   </script>
-<script class="remove" src="/i18n-activity/templates/gap-analysis/prompts.js"> </script>
+<script class="remove" src="../../i18n-activity/templates/gap-analysis/prompts.js"> </script>
 <link rel="stylesheet" data-import href="https://w3c.github.io/typography/gap-analysis/gapanalysis.css">
 </head>
 
@@ -156,8 +156,6 @@
 <section id="charset" class="ok">
 <h3>Characters &amp; encoding</h3>
 <p id="prompt-charset" class="status_prompt promptStub"></p>
-
-<p>The situation improved with the addition of mtavruli to Unicode 11 (but see <a href="#fonts"></a> below), and the case mappings between mkedruli and mtavruli, particularly for plain text use.</p>
 <div id="insert-charset"></div>
 </section>
 
@@ -207,9 +205,6 @@
 <h3>Transforming characters</h3>
 <p id="prompt-transforms" class="status_prompt promptStub"></p>
 
-
-<p>See the issue in [[[#fonts]]] above. Apart from that, there are no issues with text-transforms.</p>
-<p>Note that the concept of capitalisation (title-casing or sentence-casing) doesn't actually apply to modern Georgian text. When mkedruli is mapped to mtavruli uppercase, it is applied to one or more whole words at a time (like ALL CAPS). Therefore the CSS for this feature will be ignored by content authors.</p>
 <div id="insert-transforms"></div>
 </section>
 
@@ -351,11 +346,6 @@
 <section id="lists" class="ok">
 <h3>Lists, counters, etc.</h3>
 <p id="prompt-lists" class="status_prompt promptStub"></p>
-
-
-<p>A traditional <code>georgian</code> CSS counter style is defined in the document <a href="https://w3c.github.io/predefined-counter-styles/#georgian-styles">Ready-made Counter Styles</a>.  The same style is also defined in the <a href="https://www.w3.org/TR/css-counter-styles-3/#georgian">CSS Counter Styles specification</a>.</p>
-<p><span class="pass">All major browsers</span> support this style (see the <a href="https://w3c.github.io/i18n-tests/results/custom-counter-styles#georgian">tests and results</a> in the i18n test suite).</p>
-<p>Note that the counters include characters that would currently regarded as archaic if they were in running text.</p>
 <div id="insert-lists"></div>
 </section>
 
@@ -472,7 +462,8 @@
 
 
 <details>
-<summary style="margin-top:4em; cursor: pointer;">Show summary</summary>
+<summary style="margin-top:4em; cursor: pointer;" onClick="setUpSummary();
+printSummary(true)">Show summary</summary>
 <pre id="summaryPlaceholder" style="white-space: pre-wrap;"></pre>
 </details>
 
@@ -480,10 +471,8 @@
 
 
 <script class="remove">
-setUpSummary()
 addPrompts() 
 getAllData('eurlreq','doc:geor')
-printSummary(true)
 </script>
 
 
