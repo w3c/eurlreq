@@ -71,7 +71,7 @@
 <link rel="stylesheet" data-import href="https://w3c.github.io/typography/gap-analysis/gapanalysis.css">
 </head>
 
-<body onLoad="setUpSummary(); printSummary(true)">
+<body>
   <div id="abstract">
     <p>This document describes and prioritises gaps for the support of Dutch on the Web and in eBooks. In particular, it is concerned with text layout. It checks that needed features are supported in W3C specifications, in particular HTML and CSS and those relating to digital publications. It also checks whether the features have been implemented in browsers and ereaders. <strong>This is a preliminary analysis.</strong></p>
   </div>
@@ -481,13 +481,16 @@ It is linked to from the <a href="https://w3c.github.io/typography/gap-analysis/
 
 
 
-<details>
-<summary style="margin-top:4em; cursor: pointer;">Show summary</summary>
+<details id="summaryStats">
+<summary style="margin-top:4em; cursor: pointer;" onclick="setUpSummary(); printSummary(true)">Show summary</summary>
 <pre id="summaryPlaceholder" style="white-space: pre-wrap;"></pre>
 </details>
 <script class="remove">
 addPrompts() 
 getAllData('eurlreq','doc:nl')
+</script>
+<script>
+if (window.location.href.includes('/TR/')) document.getElementById('summaryStats').style.display = 'none'
 </script>
 
 
