@@ -15,6 +15,10 @@ For more details about scope, deliverables, work methods, etc., see the [group's
 - [Greek gap analysis](https://w3c.github.io/eurlreq/gap-analysis/grek-gap)
 - [Hungarian gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-hu-gap)
 
+### Related documents
+- [Requirements for Latin Text Layout and Pagination](http://w3c.github.io/dpub-pagination/)
+- [Ready-made Counter Styles](https://www.w3.org/TR/predefined-counter-styles/)
+
 
 ### Feedback
 Please use the [GitHub issue list](https://github.com/w3c/eurlreq/issues) to report issues for language support, for discussions, and to send feedback about documents. (Learn [how GitHub issues work](http://w3c.github.io/i18n-activity/guidelines/issues.html).)
