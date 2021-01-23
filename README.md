@@ -11,7 +11,9 @@ For more details about scope, deliverables, work methods, etc., see the [group's
 
 ### Documents
 - [Dutch gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-nl-gap)
+- [French gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-fr-gap)
 - [Georgian gap analysis](https://w3c.github.io/eurlreq/gap-analysis/geor-gap)
+- [German gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-de-gap)
 - [Greek gap analysis](https://w3c.github.io/eurlreq/gap-analysis/grek-gap)
 - [Hungarian gap analysis](https://w3c.github.io/eurlreq/gap-analysis/latn-hu-gap)
 
