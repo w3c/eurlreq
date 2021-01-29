@@ -13,7 +13,8 @@ Brief_intro_illustrating_the_issue
 
 
 <b class="subhead">Specs:</b>
-[issue XXX](url) Closed. [shortname](url_to_section) describe_what_it_says
+[issue XXX](url) Closed. 
+[shortname](url_to_section) describe_what_it_says
 
 
 <b class="subhead">Tests & results:</b>
