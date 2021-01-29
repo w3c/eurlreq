@@ -11,17 +11,17 @@ assignees: ''
 
 Brief_intro
 
-**Specs:**
+<b class="subhead">Specs:</b>
 Describe_status_of_related_spec_work
 
-**Tests & results:**
+<b class="subhead">Tests & results:</b>
 Point_to_a_test
 Summarise_the_results_for_each_major_engine
 
-**Browser bug reports:**
+<b class="subhead">Browser bug reports:</b>
 List_of_links_to_related_bug_reports
 
-**Priority:**
+<b class="subhead">Priority:</b>
 Explain_why_you_chose_the_priority
 
 Move the following to the second comment in the thread:
