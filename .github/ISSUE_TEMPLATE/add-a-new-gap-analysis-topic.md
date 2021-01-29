@@ -24,5 +24,5 @@ List_of_links_to_related_bug_reports
 <b class="subhead">Priority:</b>
 Explain_why_you_chose_the_priority
 
-Move the following to the second comment in the thread:
-_The first comment in this issue contains text that will automatically appear in [the XXX gap-analysis document](https://w3c.github.io/sealreq/gap-analysis/XXX-gap#XXX) as a subsection with the same title as this issue. Any edits made to that comment will be immediately available in the document. Proposals for changes or discussion of the content can be made in comments below this point._
+_The first comment in this issue contains text that will automatically appear in [the XXX gap-analysis document](https://w3c.github.io/sealreq/gap-analysis/XXX-gap#XXX) as a topic with the same title as this issue. Any edits made to that comment will be immediately available in the Editor's draft of the document. Proposals for changes or discussion of the content can be made in comments below this point._
+_The first comment in this issue contains text that will automatically appear in several gap-analysis documents in the Vertical Text section, as a topic with the same title as this issue. Any edits made to that comment will be immediately available in the Editor's draft of the document. Proposals for changes or discussion of the content can be made in comments below this point._
