@@ -18,8 +18,9 @@ Brief_intro_illustrating_the_issue
 
 
 <b class="subhead">Tests & results:</b>
-_interactive test_, [assertion](url)
-_i18n test suite_, [section_head](url)
+<i>interactive test</i>, [assertion](url)<br>
+<i>i18n test suite</i>, [section_head](url)
+
 Summarise_the_results_for_each_major_engine
 <span class="pass">Gecko</span>, <span class="partial">Blink</span>, and <span class="fail">Webkit</span>
 
