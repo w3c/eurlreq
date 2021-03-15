@@ -6,8 +6,6 @@ We aim to address the problem that local users don't know how to tell the W3C wh
 
 Topics for discussion are suggested by [the gap-analysis template](https://www.w3.org/International/i18n-activity/templates/gap-analysis/gap-analysis_template.html). This work feeds into the [language matrix](https://www.w3.org/International/typography/gap-analysis/language-matrix.html) which provides a heat-map for language issues on the Web.
 
-For more details about scope, deliverables, work methods, etc., see the [group's charter](https://w3c.github.io/eurlreq/charter/).
-
 
 ### Key links
 [GitHub repo](https://github.com/w3c/eurlreq) • [Discussion threads](https://github.com/w3c/eurlreq/issues) • [Issue tracker](https://www.w3.org/International/i18n-activity/textlayout/?filter=eurlreq) (with eurlreq filter) • [Charter](https://www.w3.org/International/eurlreq/charter/).
