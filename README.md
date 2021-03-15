@@ -1,4 +1,4 @@
-# European Layout Task Force (eurlreq)
+# European Language Enablement (eurlreq)
 
 This is the place to explore gaps in support for European language on the Web and in eBooks, and to document requirements.
 
