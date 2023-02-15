@@ -21,7 +21,7 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 - **German Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-de-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-de-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-de-gap.html) • [*Discuss*](https://github.com/w3c/eurlreq/labels/l%3Ade) • [*Edit*](https://github.com/w3c/eurlreq/labels/doc%3Ade)
 
-- **Greek Gap Analysis** • [DNOTE](https://www.w3.org/TR/grek-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/grek-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/grek-gap.html) • [*Edit/comment on GitHub*](https://github.com/w3c/eurlreq/labels/doc%3Agrek)
+- **Greek Gap Analysis** • [DNOTE](https://www.w3.org/TR/grek-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/grek-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/grek-gap.html) • [*Edit*](https://github.com/w3c/eurlreq/labels/doc%3Agrek)
 
 - **Hungarian Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-hu-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-hu-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-hu-gap.html) • [*Discuss*](https://github.com/w3c/eurlreq/labels/l%3Ahu) • [*Edit*](https://github.com/w3c/eurlreq/labels/doc%3Ahu)
 
