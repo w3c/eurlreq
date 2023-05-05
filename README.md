@@ -6,17 +6,18 @@ We aim to address the problem that local users don't know how to tell the W3C wh
 
 Topics for discussion are suggested by [the gap-analysis template](https://www.w3.org/International/i18n-activity/templates/gap-analysis/gap-analysis_template.html). This work feeds into the [language matrix](https://www.w3.org/International/typography/gap-analysis/language-matrix.html) which provides a heat-map for language issues on the Web.
 
+---
+
+## Help wanted!
+**We're looking for information about this writing system. Follow the link for specific questions.**
+
+**[Dutch](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Anl+label%3Aquestion) • [French](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Afr+label%3Aquestion) • [Georgian](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aka+label%3Aquestion) • [German](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ade+label%3Aquestion) • [Greek](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ael+label%3Aquestion) • [Hungarian](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ahu+label%3Aquestion)**
+
+---
+
 
 ### Key links
 [GitHub repo](https://github.com/w3c/eurlreq) • [Discussion threads](https://github.com/w3c/eurlreq/issues) • [Issue tracker](https://www.w3.org/International/i18n-activity/textlayout/?filter=eurlreq) (with eurlreq filter) • [Charter](https://www.w3.org/International/eurlreq/charter/).
-
-
-
-### Help wanted!
-We're looking for information about this writing system. Follow the link for specific questions.
-
-[Dutch](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Anl+label%3Aquestion) • [French](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Afr+label%3Aquestion) • [Georgian](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aka+label%3Aquestion) • [German](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ade+label%3Aquestion) • [Greek](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ael+label%3Aquestion) • [Hungarian](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ahu+label%3Aquestion)
-
 
 
 
