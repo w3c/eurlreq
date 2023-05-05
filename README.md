@@ -12,6 +12,14 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 
 
+### Help wanted!
+We're looking for information about this writing system. Follow the link for specific questions.
+
+[Dutch](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Anl+label%3Aquestion) • [French](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Afr+label%3Aquestion) • [Georgian](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aka+label%3Aquestion) • [German](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ade+label%3Aquestion) • [Greek](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ael+label%3Aquestion) • [Hungarian](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ahu+label%3Aquestion)
+
+
+
+
 ### Documents
 - **Dutch Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-nl-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-nl-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-nl-gap.html) • [*Discuss*](https://github.com/w3c/eurlreq/labels/l%3Anl) • [*Edit*](https://github.com/w3c/eurlreq/labels/doc%3Anl)
 
