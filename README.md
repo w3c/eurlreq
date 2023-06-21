@@ -22,6 +22,8 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 
 ### Documents
+- **Catalan Gap Analysis** • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-ca-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-ca-gap.html)
+
 - **Dutch Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-nl-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-nl-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-nl-gap.html)
 
 - **French Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-fr-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-fr-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-fr-gap.html)
@@ -36,6 +38,11 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 
 ### Discussions
+- **Catalan** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aca+label%3Aquestion)
+• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Aca)
+• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3As%3Aca+-label%3Aquestion) 
+• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Aeurlreq+label%3Aspec-type-issue)
+
 - **Dutch** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Anl+label%3Aquestion)
 • [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Anl)
 • [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3As%3Anl+-label%3Aquestion) 
