@@ -21,12 +21,16 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 
 
-### LReq docs
+### Resource & requirement docs
+- **Georgian Script Layout Requirements** • [DNOTE](https://www.w3.org/TR/geor-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/geor/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/geor/)
+
+- **Greek Script Layout Requirements** • [DNOTE](https://www.w3.org/TR/grek-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/grek/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/grek/)
+
 - **Latin Script Layout Requirements** • [DNOTE](https://www.w3.org/TR/latn-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/latn/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/latn/index.html)
 
 
 
-### Gap docs
+### Gap-analysis docs
 - **Georgian Gap Analysis** • [DNOTE](https://www.w3.org/TR/geor-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/geor-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/geor-gap.html)
 
 - **Greek Gap Analysis** • [DNOTE](https://www.w3.org/TR/grek-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/grek-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/grek-gap.html)
@@ -35,7 +39,7 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 
 
-### Old Gap docs
+### Old Gap docs (now retired)
 - **Catalan Gap Analysis** • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-ca-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-ca-gap.html)
 
 - **Dutch Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-nl-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-nl-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-nl-gap.html)
