@@ -49,7 +49,7 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 - **Dutch** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Anl+label%3Aquestion)
 • [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Anl)
 • [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Anl+-label%3Aquestion+-label%3Agap) 
-• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3script-latn)
+• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
 
 - **French** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Afr+label%3Aquestion)
 • [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Afr)
