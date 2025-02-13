@@ -23,9 +23,7 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 
 ### Resource & requirement docs
 - **Georgian Script Resources** • [DNOTE](https://www.w3.org/TR/geor-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/geor/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/geor/)
-
 - **Greek Script Resources** • [DNOTE](https://www.w3.org/TR/grek-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/grek/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/grek/)
-
 - **Latin Script Resources** • [DNOTE](https://www.w3.org/TR/latn-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/latn/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/latn/index.html)
 
 
