@@ -6,6 +6,9 @@ We aim to address the problem that local users don't know how to tell the W3C wh
 
 Topics for discussion are suggested by [the gap-analysis template](https://www.w3.org/International/i18n-activity/templates/gap-analysis/gap-analysis_template.html). This work feeds into the [language matrix](https://www.w3.org/International/typography/gap-analysis/language-matrix.html) which provides a heat-map for language issues on the Web.
 
+### Key links
+[GitHub repo](https://github.com/w3c/eurlreq) • [Discussion threads](https://github.com/w3c/eurlreq/issues) • [Charter](https://www.w3.org/International/eurlreq/charter/).
+
 ---
 
 ## Help wanted!
@@ -16,60 +19,57 @@ Topics for discussion are suggested by [the gap-analysis template](https://www.w
 ---
 
 
-### Key links
-[GitHub repo](https://github.com/w3c/eurlreq) • [Discussion threads](https://github.com/w3c/eurlreq/issues) • [Charter](https://www.w3.org/International/eurlreq/charter/).
 
 
-
-### Resource & requirement docs
-- **Georgian Script Resources** • [DNOTE](https://www.w3.org/TR/geor-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/geor/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/geor/)
-- **Greek Script Resources** • [DNOTE](https://www.w3.org/TR/grek-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/grek/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/grek/)
-- **Latin Script Resources** • [DNOTE](https://www.w3.org/TR/latn-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/latn/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/latn/index.html)
-
-
-
-### Gap-analysis docs
-- **Georgian Gap Analysis** • [DNOTE](https://www.w3.org/TR/geor-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/geor-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/geor-gap.html)
-- **Greek Gap Analysis** • [DNOTE](https://www.w3.org/TR/grek-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/grek-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/grek-gap.html)
-- **Latin Script Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-gap.html)
-
-
-
-
-### Discussions
-- **Catalan** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aca+label%3Aquestion)
-• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Aca)
-• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Aca+-label%3Aquestion+-label%3Agap) 
-• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
-- **Dutch** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Anl+label%3Aquestion)
-• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Anl)
-• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Anl+-label%3Aquestion+-label%3Agap) 
-• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
-- **French** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Afr+label%3Aquestion)
-• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Afr)
-• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Afr+-label%3Aquestion+-label%3Agap) 
-• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
-- **Georgian** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aka+label%3Aquestion)
+### Georgian
+- **Script Resources** • [DNOTE](https://www.w3.org/TR/geor-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/geor/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/geor/)
+- **Gap Analysis** • [DNOTE](https://www.w3.org/TR/geor-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/geor-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/geor-gap.html)
+- **Discussions** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aka+label%3Aquestion)
 • [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Ageor)
 • [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Aka+-label%3Aquestion+-label%3Agap) 
 • [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-geor)
-- **German** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ade+label%3Aquestion)
-• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Ade)
-• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Ade+-label%3Aquestion+-label%3Agap) 
-• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
-- **Greek** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ael+label%3Aquestion)
+
+
+
+
+### Greek
+- **Script Resources** • [DNOTE](https://www.w3.org/TR/grek-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/grek/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/grek/)
+- **Gap Analysis** • [DNOTE](https://www.w3.org/TR/grek-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/grek-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/grek-gap.html)
+- **Discussions** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ael+label%3Aquestion)
 • [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Agrek)
 • [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Ael+-label%3Aquestion+-label%3Agap) 
 • [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-grek)
-- **Hungarian** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ahu+label%3Aquestion)
+
+
+
+
+### Latin script
+- **Script Resources** • [DNOTE](https://www.w3.org/TR/latn-lreq/) • [*Editor's draft*](https://www.w3.org/International/eurlreq/latn/) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/latn/index.html)
+- **Gap Analysis** • [DNOTE](https://www.w3.org/TR/latn-gap) • [*Editor's draft*](https://www.w3.org/International/eurlreq/gap-analysis/latn-gap) • [*Latest commits*](https://github.com/w3c/eurlreq/commits/gh-pages/gap-analysis/latn-gap.html)
+- **Discussions: Catalan** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Aca+label%3Aquestion)
+• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Aca)
+• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Aca+-label%3Aquestion+-label%3Agap) 
+• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
+- **Discussions: Dutch** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Anl+label%3Aquestion)
+• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Anl)
+• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Anl+-label%3Aquestion+-label%3Agap) 
+• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
+- **Discussions: French** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Afr+label%3Aquestion)
+• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Afr)
+• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Afr+-label%3Aquestion+-label%3Agap) 
+• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
+- **Discussions: German** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ade+label%3Aquestion)
+• [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Ade)
+• [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Ade+-label%3Aquestion+-label%3Agap) 
+• [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
+- **Discussions: Hungarian** • [*Questions*](https://github.com/w3c/eurlreq/issues?q=is%3Aissue+is%3Aopen+label%3Al%3Ahu+label%3Aquestion)
 • [*Gap reports*](https://github.com/w3c/eurlreq/labels/doc%3Ahu)
 • [*Other*](https://github.com/w3c/eurlreq/issues?q=is%3Aopen+label%3Al%3Ahu+-label%3Aquestion+-label%3Agap) 
 • [*Spec issues*](https://github.com/w3c/i18n-activity/issues?q=is%3Aopen+label%3Ascript-latn)
 
 
 
-
-### Related documents
+### Other documents
 - [Requirements for Latin Text Layout and Pagination](http://w3c.github.io/dpub-pagination/)
 - [Ready-made Counter Styles](https://www.w3.org/TR/predefined-counter-styles/)
 
